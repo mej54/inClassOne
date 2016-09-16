@@ -4,50 +4,56 @@ body, html {
   text-align: center;
 }
 
+#button {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 10%;
+}
+
 h1 {
-	font-size: 3.0rem;
+  font-size: 3.0rem;
 }
 
 a:hover {
-	color: lightblue;
+  color: lightblue;
 }
 
-p.standardp {
-	color: gray;
-	font-size: 1.9rem;
+.standardp {
+  color: gray;
+  font-size: 1.9rem;
 }
 
-#firstsection {
-	font-size: 1.95rem;
-	font-weight: bold;
+#firstSection {
+  font-size: 1.95rem;
+  font-weight: bold;
 }
 
 figure {
-	text-align: center;
-	float: right;
+  text-align: center;
+  float: right;
 }
 
-p.floatp {
-	font-size:1.6rem;
+.floatp {
+  font-size:1.6rem;
 }
 
-#thirdsection {
-	font-size: 1.8rem;
-	font-family: 'Prestige', serif;
-	text-align: center;
+#thirdSection {
+  font-size: 1.8rem;
+  font-family: 'Prestige', serif;
+  text-align: center;
 }
 
 nav {
-	padding: 0;
-	text-align: center;
-	font-size: 1.5rem;
+  text-align: center;
+  font-size: 1.5rem;
 }
 
 nav ul li {
-	display: inline-block;
-	margin-right: 1.5rem;
+  display: inline-block;
+  margin-right: 2rem;
 }
 
 nav ul li > a {
-	color: orange;
+  color: orange;
 }
